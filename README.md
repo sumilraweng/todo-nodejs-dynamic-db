@@ -40,18 +40,12 @@ We also implemented the the crud operation using mongodb
 ## folder structure
 
 ```sh
-.
 ├── app.js
 ├── config.env
 ├── controllers
 │   └── taskController.js
 ├── Data
 │   └── todoData.json
-├── helper
-│   ├── appErrorClass.js
-│   ├── sendError.js
-│   ├── sendResponse.js
-│   └── validation.js
 ├── middelware
 │   └── todoMiddelware.js
 ├── models
@@ -119,4 +113,4 @@ Use the atlas mongo connect link here
 
 ### Link to server
 
-[Todo-backend-server](https://todo-app-raweng.herokuapp.com/todolist/tasks)
+[Todo-backend-server](https://todo-dynamic-backend-app.herokuapp.com/todolist/tasks/)
