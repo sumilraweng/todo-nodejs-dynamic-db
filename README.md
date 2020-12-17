@@ -107,10 +107,10 @@ config the PORT number
 
 which database you want to use config that database parameter with respect to that name i.e (mongoDb or jsonDb )
 
-> DATABASE_URL=<LINK-OF-ATLAS-COLLECTIONS>
+> DATABASE_URL=
 
 Use the atlas mongo connect link here
 
 ### Link to server
 
-[Todo-backend-server](https://todo-dynamic-backend-app.herokuapp.com/todolist/tasks/)
+[Todo-backend-server](https://todo-dynamic-backend-app.herokuapp.com/todolist/tasks)
