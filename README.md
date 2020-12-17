@@ -11,11 +11,12 @@ We also implemented the the crud operation using mongodb
 
 ### LIST Of API
 
-- /todolist/tasks - sned get req to get all the task
-- /todolist/tasks - sned post req to create the task
-- /todolist/tasks:id - send get req to fetch task with respective id
-- /todolist/tasks:id - send put req to update task with respective id
-- /todolist/tasks:id - send delete req to delete task with respective id
+- /todolist/tasks - send get req to get all the task (GET)
+- /todolist/tasks - send post req to create the task (POST)
+- /todolist/tasks?status=pending - send query params req to get the all task (GET)
+- /todolist/tasks:id - send get req to fetch task with respective id (Get)
+- /todolist/tasks:id - send put req to update task with respective id (PUT)
+- /todolist/tasks:id - send delete req to delete task with respective id (DELETE)
 -
 
 ### send the post request in following manner
